@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+
+font-family: Arial, sans-serif;
+background:url('images.jpg/White.jpg');
+color: #29243a;
+line-height: 1.7;
+}
+
+header {
+background: #49366f;
+color: white;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 10px;
+font-size: 14px;
+}
+
+nav a:hover {
+color: #e4caff;
+}
+
+.hero {
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 60px 8%;
+gap: 30px;
+flex-wrap: wrap;
+background: #eee8f8;
+}
+
+.hero-text {
+max-width: 500px;
+}
+
+.hero h1 {
+font-size: 35px;
+color: #49366f;
+}
+
+.hero h2 {
+margin: 15px 0;
+}
+
+.hero p {
+margin-bottom: 20px;
+}
+
+.profile img {
+width: 250px;
+height: 300px;
+object-fit: cover;
+border-radius: 20px;
+border: 5px solid white;
+}
+
+.btn {
+background: #49366f;
+color: white;
+padding: 12px 20px;
+text-decoration: none;
+border-radius: 8px;
+display: inline-block;
+}
+
+.section {
+padding: 45px 8%;
+}
+
+.section h1,
+.section h2 {
+color: #49366f;
+margin-bottom: 20px;
+}
+
+.section p {
+margin-bottom: 15px;
+}
+
+.card {
+background: white;
+padding: 20px;
+margin: 15px 0;
+border-radius: 10px;
+box-shadow: 0 3px 12px #ddd;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+background: white;
+}
+
+th, td {
+padding: 15px;
+border: 1px solid #ddd;
+text-align: left;
+}
+
+th {
+background: #49366f;
+color: white;
+}
+
+input, textarea {
+width: 100%;
+padding: 13px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 7px;
+}
+
+button {
+background: #49366f;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+margin: 8px 0;
+}
+
+button:hover, .btn:hover {
+background: #8063a8;
+transition: 0.3s;
+}
+
+li {
+padding: 8px;
+}
+
+footer {
+background: #49366f;
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+@media screen and (max-width: 650px) {
+
+header {
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 27px;
+}
+
+.profile img {
+    width: 220px;
+    height: 260px;
+}
+
+.section {
+    padding: 30px 5%;
+}
+
+table {
+    font-size: 12px;
+}
+
+}
